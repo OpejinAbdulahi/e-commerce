@@ -1,0 +1,253 @@
+/*Page reset settings*/
+* {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+
+/*Body of the whole page*/
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    line-height: 1.3rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/*global a-tag formatting*/
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*global a-tag hover state formatting*/
+.middle-footer div p a:hover,
+.lower-footer1 span a:hover,
+.lower-footer2 span a:hover,
+.for-you1 a:hover {
+    text-decoration: underline;
+}
+
+.for-you .solution a {
+    color: black;
+}
+
+/*global li formatting*/
+li {
+    list-style: none;
+}
+
+/*Just for you section where some products would display*/
+ .for-you {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 40px;
+    margin: 50px;
+    margin-top: 10px;
+}
+
+.for-you1 {
+    font-family: 'Rubik', sans-serif;
+    border-bottom: 3px solid #e8914a;
+    transition: all .3s ease-in-out 0s;
+}
+
+.for-you1:hover {
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .08);
+}
+
+.text-1 h1 {
+    margin-left: 50px;
+    color: rgb(134, 128, 128);
+}
+
+.price {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+.solution {
+    font-size: .8rem;
+    line-height: 1.4rem;
+}
+
+/*Our Trade section where mode of operation of everything online would be displayed*/
+.our-trade {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.financial,
+.logistic,
+.order-delivery {
+    font-family: 'Rubik', sans-serif;
+    border-bottom: 3px solid #e8914a;
+    transition: all .3s ease-in-out 0s;
+}
+    
+.financial:hover,
+.logistic:hover,
+.order-delivery:hover {
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .08);
+}
+
+.text-2 h1,
+.text-2 p {
+    margin-left: 50px;
+    color: rgb(134, 128, 128);
+}
+
+.text-2 p {
+    font-size: .8rem;
+}
+
+.text-2 h1,
+.text-1 h1 {
+    font-size: 1.2rem;
+}
+
+.solution2 h4, 
+.solution2 p {
+    color: rgb(134, 128, 128);
+}
+
+/*The Whole footer of the Everything online website*/
+footer {
+    background-color: #445268;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.newsletter {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.newsletter > h5 {
+    text-align: center;
+}
+
+.newsletter form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.newsletter form input {
+    max-width: 100%;
+    padding: 10px 30px;
+    background-color: #313D51;
+    border: .1px #fff solid;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.newsletter form button {
+    max-width: 100%;
+    padding: 10px 30px;
+    background-color: #445268;
+    color: #fff;
+    border: .5px #fff solid;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.newsletter form button:hover {
+    background-color: #56a799;
+    border: 1px #56a799 solid;
+    color: #fff;
+}
+
+.newsletter form > p {
+    margin-top: 10px;
+    font-size: .8rem;
+    color:  #445268;
+}
+
+.middle-footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    grid-column-gap: auto;
+    margin: 1.5rem 1rem 2rem 2rem;
+    font-family: Roboto,Helvetica,Tahoma,Arial,"Microsoft YaHei";;
+}
+
+.middle-footer div h3 {
+    font-family: serif; 
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.middle-footer div p {
+    font-family: serif; 
+    font-size: .75em;
+    line-height: 1.2rem;
+}
+
+hr {
+    border: .1px rgb(42, 41, 41) solid;
+}
+
+.social-media {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 2rem;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif; 
+    font-size: .75rem;
+    font-weight: 700;
+}
+
+.media h3,
+.media img {
+    margin-right: 10px;
+}
+
+.lower-footer1,
+.base-footer,
+.lower-footer2 {
+    font-family: serif; 
+    font-size: .75rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.lower-footer1 {
+    margin-top: 30px;
+}
+
+.lower-footer2 {
+    margin-top: 10px;
+}
+ 
+.base-footer{
+    margin-top: 15px;
+}
+
+/*ALL THE FOOTER IMAGES(THE GOOGLE STORE IMG, THE APPLE APP IMG AND FACEBOOK IMG AND OTHERS) HOVER STATES*/
+/*
+.media a {
+    animation-name: ;
+}
+
+.media a:hover {
+    background-color: red;
+}*/
